@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["হাই", "হ্যালো", "সুপ্রভাত", "শুভ সকাল", "hello", "hi", "good morning", "how are you?"],
+      "responses": ["সুপ্রভাত!", "শুভ সকাল!", "হ্যালো, কেমন আছেন?", "হাই, আমি সাহায্য করতে পারি!"]
+    },
+    {
+      "tag": "name_query",
+      "patterns": ["তোমার নাম কি", "তুমি কে", "তুমি কি", "your name", "who are you"],
+      "responses": ["আমার নাম Banglabot।", "আমি Banglabot, আপনার সেবায় আছি।", "আমার নাম Banglabot!"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["দুঃখিত, আমি বুঝতে পারছি না।", "আপনি কি দয়া করে আপনার প্রশ্নটি পুনরাবৃত্তি করবেন?"]
+    }
+  ]
+}
