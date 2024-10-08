@@ -1,6 +1,3 @@
-import nltk
-  nltk.download('punkt_tab')
-
 
 from flask import Flask, request, render_template
 from generative_ai import generate_text  # Google Generative AI integration
