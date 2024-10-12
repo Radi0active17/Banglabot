@@ -1,4 +1,3 @@
-import nltkfix
 from flask import Flask, request, render_template
 from generative_ai import generate_text  # Google Generative AI integration
 from nltk_utils import tokenize, stem, bag_of_words  # NLTK helper functions
@@ -51,7 +50,7 @@ def classify_intent(user_input):
     
     return None
 
-def get_recent_context(history, limit=3):
+def get_recent_context(history, limit=6):
     """
     Get recent conversation context.
     Returns the last 'limit' messages from the history, formatted for context.
