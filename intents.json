@@ -2,12 +2,17 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["হাই", "হ্যালো", "সুপ্রভাত", "শুভ সকাল", "hello", "hi", "good morning", "how are you?"],
+      "patterns": ["হাই", "হ্যালো", "সুপ্রভাত", "শুভ সকাল", "hello", "hi", "good morning"],
       "responses": ["সুপ্রভাত!", "শুভ সকাল!", "হ্যালো, কেমন আছেন?", "হাই, আমি সাহায্য করতে পারি!"]
     },
     {
+      "tag": "status_query",
+      "patterns": [ "what's up", "তুমি কেমন আছো?", "কেমন আছো?"],
+      "responses": ["আমি ভালো আছি, ধন্যবাদ!", "আমি বেশ ভালো, আপনি কেমন আছেন?", "আমি ঠিক আছি, ধন্যবাদ!"]
+    },
+    {
       "tag": "name_query",
-      "patterns": ["তোমার নাম কি", "তুমি কে", "তুমি কি", "your name", "who are you"],
+      "patterns": ["তোমার নাম কি", "তুমি কে", "তুমি কি", "your name", "are you", "তুমি কে?"],
       "responses": ["আমার নাম Banglabot।", "আমি Banglabot, আপনার সেবায় আছি।", "আমার নাম Banglabot!"]
     },
     {
@@ -17,3 +22,4 @@
     }
   ]
 }
+
