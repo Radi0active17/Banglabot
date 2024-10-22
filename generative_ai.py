@@ -8,7 +8,7 @@ genai.configure(api_key=os.environ["API_KEY"])
 def generate_text(prompt):
     """Generates a response using Google Generative AI."""
     # Append request for a response in Bangla
-    bangla_prompt = f"{prompt} (Your are Banglabot.Do not mention about google.Please respond in Bangla.)"
+    bangla_prompt = f"{prompt} (Your name is Banlgabot,Made by students of tejgaon college,Please respond in Bangla.)"
     
     # Create generation configuration
     generation_config = {
